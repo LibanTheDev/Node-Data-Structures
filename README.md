@@ -1,2 +1,4 @@
-# Node-Data-Structures
-A library for data structures written in Node.js 💯
+# Node_LinkedLists
+A library for linked lists written in Node.js 💯
+
+
