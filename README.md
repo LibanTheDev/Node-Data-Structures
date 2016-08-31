@@ -51,3 +51,9 @@ This prototype converts the LinkedList to an array
 ```Javascript
   console.log(list1.toArray()); //["Hello", "It's", "Me","I", "Was". "Wondering"]
   ```
+## removeAll
+This prototype removes all elements from a list
+```Javascript
+    list1.removeAll(); //removes every single element from the list
+    console.log(list1.size()); // returns 0
+    ```

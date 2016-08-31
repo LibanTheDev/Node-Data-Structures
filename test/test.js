@@ -60,3 +60,11 @@ describe("toArray", function(){
     console.log(list3.toArray());
   });
 });
+describe("removeAll", function(){
+  it("removes all elements from list", function(){
+    list1.removeAll();
+    expect(list1.size()).to.equal(0);
+
+  });
+
+});

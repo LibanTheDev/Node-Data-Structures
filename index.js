@@ -148,7 +148,26 @@ LinkedList.prototype.findIndexOf = function (data) {
   index++;
 
   }
+/**
+  * Removes all elements from the list
+  * @param none
+  * @return {integer} 1 if removed. -1 if already empty
+  *@method removeAll
+**/
+LinkedList.prototype.removeAll = function () {
 
+  if(this.length=0) {
+    return  -1;
+  }
+  else{
+    //remove using remove
+    for(var i=0; i<this.length;i++) {
+      this.remove(i);
+    }
+    return 1;
+  }
+
+};
 
 
 
