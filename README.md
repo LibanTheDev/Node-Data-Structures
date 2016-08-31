@@ -1,4 +1,4 @@
-# Node_LinkedLists [![Build Status](https://travis-ci.org/LibanTheDev/Node_LinkedLists.svg?branch=master)](https://travis-ci.org/LibanTheDev/Node_LinkedLists)
+# Node_LinkedLists [![Build Status](https://travis-ci.org/LibanTheDev/Node_LinkedLists.svg?branch=master)](https://travis-ci.org/LibanTheDev/Node_LinkedLists) [![npm version](https://badge.fury.io/js/node_linkedlists.svg)](https://badge.fury.io/js/node_linkedlists)
 A library for linked lists written in Node.js 💯
 
 # How to use
