@@ -32,3 +32,22 @@ manner:
   ```
 
 ## Removing from a list
+For this prototype, it takes in an index as a parameter.
+```Javascript
+  list1.remove(1); // removes It's
+  ```
+## Find Index Of An Object
+For this prototype, it takes in some data as a parameter.
+```Javascript
+  list1.findIndexOf("Hello"); // 0
+  ```
+## toString
+This prototype converts the Linked List to a String
+```Javascript
+  console.log(list1.toString()); //"Hello", "It's", "Me", "I", "Was", "Wondering"
+  ```
+## toArray
+This prototype converts the LinkedList to an array
+```Javascript
+  console.log(list1.toArray()); //["Hello", "It's", "Me","I", "Was". "Wondering"]
+  ```
