@@ -1,0 +1,29 @@
+{
+  "name": "node_linkedlists",
+  "version": "1.0.0",
+  "description": "A library for linked lists written in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LibanTheDev/Node_LinkedLists.git"
+  },
+  "keywords": [
+    "data\\structures",
+    "lists",
+    "algorithms",
+    "node.js"
+  ],
+  "author": "Liban Mohamed <liban.moh99@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LibanTheDev/Node_LinkedLists/issues"
+  },
+  "homepage": "https://github.com/LibanTheDev/Node_LinkedLists#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
