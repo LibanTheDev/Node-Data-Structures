@@ -3,5 +3,8 @@ node_js:
   - 0.12
 notifications:
   email:
-    - liban.moh99@gmail.com
-    - 2406722891@vtext.com
+    recipients:
+      - liban.moh99@gmail.com
+      - 2406722891@vtext.com
+    on_success: [always|never|change] # default: change
+    on_failure: [always|never|change] # default: always
