@@ -1,4 +1,3 @@
 language: node_js
 node_js:
   - 0.12
-- IFTTT_KEY=cHll8w3QfFP4YMyXPV-QJK
