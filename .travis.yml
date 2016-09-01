@@ -1,3 +1,7 @@
 language: node_js
 node_js:
   - 0.12
+notifications:
+  email:
+    - liban.moh99@gmail.com
+    - 2406722891@vtext.com
