@@ -63,7 +63,7 @@ describe("toArray", function(){
     list3.add('1');
     list3.add('2');
     expect(list3.toArray()).to.eql(['1', '2']);
-    expect(list3.toString().split(',')).to.eql(['1','2']);
+    expect(list3.toString().split(',')).to.eql(['1','3']);
   });
 });
 describe("removeAll", function(){
@@ -71,7 +71,7 @@ describe("removeAll", function(){
     list3.removeAll();
     expect(list3.size()).to.equal(0);
     expect(list3.toArray()).to.eql([]);
-    
+
 
 
   });
