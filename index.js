@@ -155,17 +155,26 @@ LinkedList.prototype.findIndexOf = function (data) {
   *@method removeAll
 **/
 LinkedList.prototype.removeAll = function () {
+// (1) start with head.
+// (2) keep moving every element to the next one till tail then set tail to null
 
-  if(this.length=0) {
-    return  -1;
+  var current = this.head;
+  var before = current;
+
+
+  while(current){
+
+    this.head = current.next;
+
+    before.next = current.next;
+
+    current = current.next;
+
+    this.length--;
+
   }
-  else{
-    //remove using remove
-    for(var i=0; i<this.length;i++) {
-      this.remove(i);
-    }
-    return 1;
-  }
+
+
 
 };
 

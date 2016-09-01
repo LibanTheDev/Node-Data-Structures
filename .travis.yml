@@ -1,3 +1,5 @@
 language: node_js
 node_js:
   - 0.12
+  notifications:
+  webhooks: https://hooks.zapier.com/hooks/catch/1647636/6b6mnn/
