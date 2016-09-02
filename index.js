@@ -178,6 +178,17 @@ LinkedList.prototype.removeAll = function () {
 
 };
 
+/**
+  * Get first element of the List
+  * @param none
+  * @return {Element} first element
+  * @method getFirstElement
+**/
+LinkedList.prototype.getFirstElement = function () {
+
+  return this.head.data;
+
+};
 
 
 };

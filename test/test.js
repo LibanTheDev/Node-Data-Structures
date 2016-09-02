@@ -77,3 +77,19 @@ describe("removeAll", function(){
   });
 
 });
+describe("getFirstElement", function(){
+  it("gets first element", function(){
+    list3.add('1');
+    list3.add('2');
+    list3.add('3');
+    list3.getFirstElement();
+    expect(list3.getFirstElement()).to.eql('1');
+    expect(list3.toArray()[0]).to.eql('1');
+    expect(list3.toString().substring(0,1)).to.eql('1');
+
+
+
+
+  });
+
+});

@@ -57,3 +57,8 @@ This prototype removes all elements from a list
     list1.removeAll(); //removes every single element from the list
     console.log(list1.size()); // returns 0
     ```
+## getFirstElement
+This prototype gets the first element in the list
+```Javascript
+  console.log(list1.getFirstElement) //"Hello"
+  ```
