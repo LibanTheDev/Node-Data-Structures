@@ -192,4 +192,5 @@ LinkedList.prototype.getFirstElement = function () {
 
 
 };
+
 module.exports = LinkedList;
