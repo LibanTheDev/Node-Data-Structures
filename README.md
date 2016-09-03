@@ -63,4 +63,4 @@ This prototype gets the first element in the list
   console.log(list1.getFirstElement) //"Hello"
   ```
 # TODO
-- [] addAt prototype
+- [ ] addAt prototype
